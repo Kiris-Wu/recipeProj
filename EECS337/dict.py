@@ -1,5 +1,5 @@
-import EECS337.recipegenerator as recipe
-import  EECS337.scrapeurl as allurl
+from . import recipegenerator as recipe
+from . import  scrapeurl as allurl
 from difflib import SequenceMatcher
 import nltk
 import collections
