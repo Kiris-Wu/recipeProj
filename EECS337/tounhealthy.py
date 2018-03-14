@@ -1,5 +1,5 @@
-import recipeProj.EECS337.recipegenerator as recipe
-import recipeProj.EECS337.SL as sl
+import EECS337.recipegenerator as recipe
+import EECS337.SL as sl
 import copy
 meas_ingred={
     "salt":[{"teaspoon":0.5},{"tablespoon":0.2},{"cup":0.01}],
