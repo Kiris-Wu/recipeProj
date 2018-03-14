@@ -1,0 +1,83 @@
+-------Extracting information--------
+{
+    "cooking method": [
+        "boil",
+        "bake"
+    ],
+    "cooking tools": [
+        "bowl"
+    ],
+    "ingredients": [
+        {
+            "descriptor": "none",
+            "measurement": "cup",
+            "name": "rice vinegar",
+            "preparation": "none",
+            "quantity": 0.5
+        },
+        {
+            "descriptor": "none",
+            "measurement": "tablespoons",
+            "name": "honey",
+            "preparation": "none",
+            "quantity": 5.0
+        },
+        {
+            "descriptor": "such as Silver Swan\u00ae,",
+            "measurement": "cup",
+            "name": "soy sauce",
+            "preparation": "none",
+            "quantity": 0.33
+        },
+        {
+            "descriptor": "toasted,",
+            "measurement": "cup",
+            "name": "Asian sesame oil",
+            "preparation": "none",
+            "quantity": 0.25
+        },
+        {
+            "descriptor": "none",
+            "measurement": "tablespoons",
+            "name": "Asian chili garlic sauce",
+            "preparation": "none",
+            "quantity": 3.0
+        },
+        {
+            "descriptor": "minced",
+            "measurement": "tablespoons",
+            "name": "garlic",
+            "preparation": "none",
+            "quantity": 3.0
+        },
+        {
+            "descriptor": "to taste",
+            "measurement": "none",
+            "name": "salt",
+            "preparation": "none",
+            "quantity": 0.0
+        },
+        {
+            "descriptor": "none",
+            "measurement": "skinless",
+            "name": "boneless chicken thighs",
+            "preparation": "none",
+            "quantity": 8.0
+        },
+        {
+            "descriptor": "optional,  chopped",
+            "measurement": "tablespoon",
+            "name": "green onion",
+            "preparation": "none",
+            "quantity": 1.0
+        }
+    ],
+    "other cooking method": [
+        "mince",
+        "chop",
+        "squeeze",
+        "shake",
+        "stir"
+    ],
+    "title": "Asian Glazed Chicken Thighs Recipe"
+}

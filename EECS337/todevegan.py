@@ -40,7 +40,12 @@ general_dairy_vegan=["coconut milk","coconut butter","coconut cheese","coconut m
 special_list_mapping_from=["egg","oil"]
 vege_dairy=["soy","coconut","rice","almond","water chestnut","wheat"]
 vege_oil=["vegetable","sesame","olive","coconut","peanut","sunflower","soy","cotton","rape","chili"]
-url="https://www.allrecipes.com/recipe/165190/spicy-vegan-potato-curry/?internalSource=staff%20pick&referringId=1227&referringContentType=recipe%20hub"
+url = input("Please input URL(type a space in the end then enter): ")
+print("You want to transform recipe url is :"+ url)
+url=url.strip()
+if(url==""):
+    print("You didn't enter anything, using the default link...")
+    url="https://www.allrecipes.com/recipe/165190/spicy-vegan-potato-curry/?internalSource=staff%20pick&referringId=1227&referringContentType=recipe%20hub"
 myrecipe=recipe.returnRecipe(url)
 print("-----------previous recipe")
 print(myrecipe)

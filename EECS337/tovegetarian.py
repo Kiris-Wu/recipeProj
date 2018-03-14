@@ -21,8 +21,12 @@ vege_ingre_mapping_to=[
     "lettuce", "spinach", "onion", "carrot", "corn",
     "cucumber", "potato", "tomato", "cabbage", "cauliflower", "celery root", "chile pepper", "artichoke", "ratatouille",
     "asparagus", "beet"]
-
-url="https://www.allrecipes.com/recipe/242405/orange-and-milk-braised-pork-carnitas/?internalSource=hub%20recipe&referringContentType=search%20results&clickId=cardslot%209"
+url = input("Please input URL(type a space in the end then enter): ")
+print("You want to transform recipe url is :"+ url)
+url=url.strip()
+if(url==""):
+    print("You didn't enter anything, using the default link...")
+    url="https://www.allrecipes.com/recipe/242405/orange-and-milk-braised-pork-carnitas/?internalSource=hub%20recipe&referringContentType=search%20results&clickId=cardslot%209"
 myrecipe=recipe.returnRecipe(url)
 print("-----------previous recipe")
 print(myrecipe)

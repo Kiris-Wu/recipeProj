@@ -46,7 +46,11 @@ vege_ingre_mapping_to=[
     "tempeh","tofu","seitan","gardein","eggplant","mushroom","bean","bok choy","broccoli","brussel sprout","lettuce","spinach","onion","carrot","corn",
     "cucumber","potato","tomato","cabbage","cauliflower","celery root","chile pepper","artichoke","ratatouille","asparagus","beet"
 ]
-url="https://www.allrecipes.com/recipe/165190/spicy-vegan-potato-curry/?internalSource=staff%20pick&referringId=1227&referringContentType=recipe%20hub"
+url = input("Please input URL(type a space in the end then enter): ")
+print("You want to transform recipe url is :"+ url)
+url=url.strip()
+if(url==""):
+    url="https://www.allrecipes.com/recipe/254940/honey-garlic-chicken-with-rosemary/?internalSource=previously%20viewed&referringContentType=home%20page&clickId=cardslot%2033"
 myrecipe=recipe.returnRecipe(url)
 print("-----------previous recipe")
 print(myrecipe)

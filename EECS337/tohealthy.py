@@ -15,8 +15,12 @@ health_method_mapping_to=["boil","grill"]
 health_tool_mapping_from=[["steamer","cooker","pot"],["toaster","oven","pan","wok"]]
 health_tool_mapping_to=["skillet","grill"]
 toolist=["steamer","cooker","pot","toaster","oven","pan","wok"]
-
-url="https://www.allrecipes.com/recipe/220125/slow-cooker-beef-pot-roast/?clickId=right%20rail0&internalSource=rr_feed_recipe_sb&referringId=237320%20referringContentType%3Drecipe"
+url = input("Please input URL(type a space in the end then enter): ")
+print("You want to transform recipe url is :"+ url)
+url=url.strip()
+if(url==""):
+    print("You didn't enter anything, using the default link...")
+    url="https://www.allrecipes.com/recipe/220125/slow-cooker-beef-pot-roast/?clickId=right%20rail0&internalSource=rr_feed_recipe_sb&referringId=237320%20referringContentType%3Drecipe"
 myrecipe=recipe.returnRecipe(url)
 print("-----------previous recipe")
 print(myrecipe)

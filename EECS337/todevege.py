@@ -26,8 +26,12 @@ general_vege=[
     "olive","onion","parsnip","potatoe","radish","rhubarb","rhutabaga","shallot","squash","tomatillo",
     "tomato","turnip","water chestnut","yam"
 ]
-
-url="https://www.allrecipes.com/recipe/34613/roquefort-pear-salad/?internalSource=hub%20recipe&referringContentType=search%20results&clickId=cardslot%205"
+url = input("Please input URL(type a space in the end then enter): ")
+print("You want to transform recipe url is :"+ url)
+url=url.strip()
+if(url==""):
+    print("You didn't enter anything, using the default link...")
+    url="https://www.allrecipes.com/recipe/34613/roquefort-pear-salad/?internalSource=hub%20recipe&referringContentType=search%20results&clickId=cardslot%205"
 myrecipe=recipe.returnRecipe(url)
 print("-----------previous recipe")
 print(myrecipe)
