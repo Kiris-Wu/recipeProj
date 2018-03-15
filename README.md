@@ -2,7 +2,7 @@
 EECS 337 Team project by Xinyi Wu, Group 22
 
 -----------------------------Version for programming language---------------------\
-Python 3.6
+Python 3.6\
 -----------------------------Package list----------------------------------------\
 Standard python package:json,copy,collections,re,request\\
 
