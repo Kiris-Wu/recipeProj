@@ -1,6 +1,6 @@
 from . import recipegenerator as recipe
 from . import SL as sl
-import  EECS337.scrapeurl as curl
+from . import  scrapeurl as curl
 from difflib import SequenceMatcher
 import nltk
 import collections
