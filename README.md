@@ -33,7 +33,7 @@ All the runnable code are in EECS337 folder.
   
 >-transformation code:<br/>
 
-  ->>to(style).py :Transform the original recipes into special styles, output the previous and changed one.
+  >>-to(style).py :Transform the original recipes into special styles, output the previous and changed one.
   
 --------------------------------------------How to run------------------------------------------------<br/>
 All the transformation code with recipeNT could directly run.
