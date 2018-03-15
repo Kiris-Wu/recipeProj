@@ -17,25 +17,25 @@ are in that situation, ignore the notice and run the code directly .
 
 -------------------------------------File specification-----------------------------------\
 The txt file named as "output-XXX-prep" are all preparation files(or reference files) for 
-creating the transformation diactionary.
+creating the transformation diactionary.\
 
-All the runnable code are in EECS337 folder.
--supporting code:
-    -SL.py :Save the code into disk and arrange them into a more readable format.
+All the runnable code are in EECS337 folder.\
+-supporting code:\
+    -SL.py :Save the code into disk and arrange them into a more readable format.\
     -scrapeurl.py :Scrape special urls for the extraction of description. (e.g. scrapy 100 Chinese 
-    recipe urls from Allrecipes.com)
-    -dict.py :Output the txt files of "output-XXX-prep", which includes descriptions of ingredients
-    of different recipe syles by frequency 
+    recipe urls from Allrecipes.com)\
+    -dict.py :Output the txt files of "output-XXX-prep", which includes descriptions of ingredients\
+    of different recipe syles by frequency \
     
--recipe extraction code:
-  -recipegenerator.py :Scrape recipe information from the given url and arrange them into readable format.
-  -recipeNT.py :Output single recipe.
+-recipe extraction code:\
+  -recipegenerator.py :Scrape recipe information from the given url and arrange them into readable format.\
+  -recipeNT.py :Output single recipe.\
   
--transformation code:
+-transformation code:\
 
   -to(style).py :Transform the original recipes into special styles, output the previous and changed one.
   
---------------------------------------------How to run------------------------------------------------
+--------------------------------------------How to run------------------------------------------------\
 All the transformation code with recipeNT could directly run.
 
 These code will request you to input url with a space(without the space, you will be redirected to that webpage,
