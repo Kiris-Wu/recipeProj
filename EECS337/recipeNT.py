@@ -1,5 +1,5 @@
-from . import recipegenerator as recipe
-from . import SL as sl
+import recipegenerator as recipe
+import SL as sl
 url = input("Please input URL(type a space in the end then enter): ")
 print("You want to transform recipe url is :"+ url)
 url=url.strip()

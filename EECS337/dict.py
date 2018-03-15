@@ -1,5 +1,5 @@
-from . import recipegenerator as recipe
-from . import  scrapeurl as allurl
+import recipegenerator as recipe
+import scrapeurl as allurl
 from difflib import SequenceMatcher
 import nltk
 import collections

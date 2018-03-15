@@ -1,5 +1,5 @@
-from . import recipegenerator as recipe
-from . import SL as sl
+import recipegenerator as recipe
+import SL as sl
 import copy
 meas_ingred={
     "salt":[{"teaspoon":0.5},{"tablespoon":0.2},{"cup":0.01}],

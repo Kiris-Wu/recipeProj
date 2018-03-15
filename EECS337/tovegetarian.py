@@ -1,5 +1,5 @@
-from . import recipegenerator as recipe
-from . import SL as sl
+import recipegenerator as recipe
+import SL as sl
 import copy
 def isInclude(namelist,target):
     flag=0

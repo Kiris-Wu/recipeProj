@@ -1,6 +1,6 @@
-from . import recipegenerator as recipe
-from . import SL as sl
-from . import  scrapeurl as curl
+import recipegenerator as recipe
+import SL as sl
+import scrapeurl as curl
 from difflib import SequenceMatcher
 import nltk
 import collections
